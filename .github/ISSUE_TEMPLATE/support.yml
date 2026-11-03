@@ -1,0 +1,36 @@
+name: Support request
+description: Report a JuliaNomics problem or request assistance.
+title: "Support: "
+labels: [support]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contacting JuliaNomics support. Do not include expenses, receipts, payment information, addresses, or other sensitive personal information in this public issue.
+  - type: input
+    id: app-version
+    attributes:
+      label: JuliaNomics version
+      placeholder: e.g. 1.0 (2)
+    validations:
+      required: true
+  - type: input
+    id: os-version
+    attributes:
+      label: iOS or iPadOS version
+      placeholder: e.g. iOS 27.0
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the problem without including private records.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true

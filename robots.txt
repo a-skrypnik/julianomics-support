@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://a-skrypnik.github.io/julianomics-support/sitemap.xml

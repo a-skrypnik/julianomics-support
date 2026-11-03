@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: JuliaNomics support request
+    url: https://github.com/a-skrypnik/julianomics-support/issues/new?template=support.yml
+    about: Ask for help without including sensitive personal information.
+  - name: Privacy question
+    url: https://github.com/a-skrypnik/julianomics-support/issues/new?template=privacy.yml
+    about: Ask about JuliaNomics privacy and data handling.

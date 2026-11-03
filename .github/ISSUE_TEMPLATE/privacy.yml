@@ -1,0 +1,16 @@
+name: Privacy question
+description: Ask about JuliaNomics privacy or data handling.
+title: "Privacy: "
+labels: [privacy]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is a public request. Do not include expense records, receipts, payment details, addresses, account credentials, or other sensitive personal information.
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Ask your question without including private records.
+    validations:
+      required: true
